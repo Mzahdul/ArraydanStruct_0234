@@ -34,5 +34,16 @@ int maint() {
     cout << "data kelima = " << kamu[4] << endl;
     cout << endl;
 
-        
+    // mengisi dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++) 
+    {
+        cout << "data index ke-" << i << " = ";
+        cin >> kamu[i];
+    }
+   cout << endl;
+   //menampilkan dengan menggunakan perulangan for 
+   for (int i = 0; i <= 4; i++)
+    {
+     cout << "data index ke-" << i << " = " << kamu[i] << endl;
+    }    
 }   
